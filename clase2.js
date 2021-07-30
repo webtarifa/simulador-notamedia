@@ -13,13 +13,13 @@ function capturar(){
     console.log(nombreCapturar);
     let asignaturaCapturar = document.getElementById("asignatura").value;
     console.log(asignaturaCapturar);
-    let nota1Capturar = parseInt;
+   
     let nota1Capturar = document.getElementById("nota1").value;
     console.log(nota1Capturar);
-    let nota2Capturar = parseInt;
+    
     let nota2Capturar = document.getElementById("nota2").value;
     console.log(nota2Capturar);
-    let nota3Capturar = parseInt;
+    
     let nota3Capturar =  document.getElementById("nota3").value;
     console.log(nota3Capturar);
     
