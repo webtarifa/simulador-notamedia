@@ -13,17 +13,17 @@ function capturar(){
     console.log(nombreCapturar);
     let asignaturaCapturar = document.getElementById("asignatura").value;
     console.log(asignaturaCapturar);
-   
+    
     let nota1Capturar = document.getElementById("nota1").value;
     console.log(nota1Capturar);
-    
+
     let nota2Capturar = document.getElementById("nota2").value;
     console.log(nota2Capturar);
     
     let nota3Capturar =  document.getElementById("nota3").value;
     console.log(nota3Capturar);
     
-    let = notamedia = nota1Capturar + nota2Capturar+ nota3Capturar /3;
+    let = notamedia = nota1Capturar/3 + nota2Capturar/3+ nota3Capturar/3;
     nuevoSujeto = new Persona(nombreCapturar,asignaturaCapturar,nota1Capturar,nota2Capturar,nota3Capturar,notamedia );
     console.log(nuevoSujeto);
     agregar();
